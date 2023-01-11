@@ -1,9 +1,11 @@
 package com.restAPI.model;
 
 import jakarta.persistence.*;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 @Entity
+@Component
 public class Teacher {
     @Id()
     @GeneratedValue(strategy = GenerationType.IDENTITY)
